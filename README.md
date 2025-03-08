@@ -7,21 +7,5 @@ Prerequisites
 Python 3.x: Ensure you have Python 3.x installed on your machine.
 Windows OS: The batch script provided is designed for use on Windows.
 
-Installation
-1. Clone the repository
-2. Prepare Your Environment
+To install the project, first clone the repository to your local machine. Then, prepare your environment by running the startup.bat script located in the root directory of the project. Simply double-click or run the batch script from your terminal. The script will automatically create a virtual environment, activate it, and prompt you to install the required dependencies from the requirements.txt file. You can choose to install them by selecting "on" or skip the installation by choosing "off." Once the dependencies are installed, the script will run the Python script, completing the setup.
 
-    Run the following steps to set up the environment:
-    Step 1: Run the startup.bat Script
-    
-   In the root directory of the project, find the setup.bat file.
-   Double-click or run the batch script in your terminal
-    
-    Step 2: Batch Script Execution
-    
-    The setup.bat script does the following:
-    
-        Creates a virtual environment
-        Activates the virtual environment
-        Optionally installs dependencies (When prompted, the script asks if you want to install the dependencies listed in requirements.txt. Choose on to install or off to skip)
-        Runs the Python script
