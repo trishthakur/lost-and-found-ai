@@ -6,8 +6,6 @@ A multimodal search application that helps users find lost items using AI-powere
 
 This system allows staff to report found items and users to search for their lost belongings using either text descriptions or images. The application uses CLIP-ViT-B/32 to generate embeddings and performs cosine similarity matching to find the best matches.
 
-**Project Timeline:** March 2025 - May 2025
-
 ## Features
 
 - **Multimodal Search**: Search using text descriptions or images
@@ -68,7 +66,7 @@ lost-and-found-ai/
 1. Clone the repository:
 ```bash
 git clone https://github.com/trishthakur/lost-and-found-ai
-cd lost-and-found-system
+cd lost-and-found-ai
 ```
 
 2. Install dependencies:
