@@ -44,7 +44,7 @@ https://github.com/user-attachments/assets/bc9c4696-0dea-48dd-8a96-27b23905a51f
 ## Project Structure
 
 ```
-lost-and-found-system/
+lost-and-found-ai/
 ├── data/
 │   ├── lost_items.csv          # Active lost items database
 │   ├── resolved_items.csv      # Resolved cases archive
