@@ -67,7 +67,7 @@ lost-and-found-system/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/lost-and-found-system.git
+git clone https://github.com/trishthakur/lost-and-found-ai
 cd lost-and-found-system
 ```
 
