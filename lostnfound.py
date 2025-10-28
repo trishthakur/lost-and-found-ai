@@ -23,10 +23,10 @@ model, processor, device = load_model()
 # Paths
 image_folder = "lost_items"
 os.makedirs(image_folder, exist_ok=True)
-excel_file = "lost_items.csv"
-resolved_file = "resolved_items.csv"
-locations_file = "locations.xlsx"
-users_file = "users.csv"
+excel_file = "data/lost_items.csv"
+resolved_file = "data/resolved_items.csv"
+locations_file = "data/locations.xlsx"
+users_file = "data/users.csv"
 
 # Initialize CSV files if not present
 if not Path(excel_file).exists():
@@ -298,3 +298,4 @@ if Path(excel_file).exists():
         st.sidebar.info(f"Last item reported at {last_reported_item['Timestamp'].values[0]}")
     else:
         st.sidebar.info("No items have been reported yet.")
+
